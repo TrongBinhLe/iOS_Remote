@@ -19,6 +19,7 @@
 		842CDD1A2A83402D006C837C /* PageSoundAndAppObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CDD192A83402D006C837C /* PageSoundAndAppObject.swift */; };
 		842CDD1C2A83404B006C837C /* AppObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CDD1B2A83404B006C837C /* AppObject.swift */; };
 		842CDD1E2A834072006C837C /* PageLayoutObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CDD1D2A834072006C837C /* PageLayoutObject.swift */; };
+		842CDD212A834797006C837C /* TVRemoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842CDD202A834797006C837C /* TVRemoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		842CDD192A83402D006C837C /* PageSoundAndAppObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSoundAndAppObject.swift; sourceTree = "<group>"; };
 		842CDD1B2A83404B006C837C /* AppObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppObject.swift; sourceTree = "<group>"; };
 		842CDD1D2A834072006C837C /* PageLayoutObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLayoutObject.swift; sourceTree = "<group>"; };
+		842CDD202A834797006C837C /* TVRemoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVRemoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		842CDCFC2A833F88006C837C /* Remote */ = {
 			isa = PBXGroup;
 			children = (
+				842CDD1F2A834755006C837C /* DragAndDropColletionView */,
 				842CDD112A833F9B006C837C /* Realm */,
 				842CDCFD2A833F88006C837C /* AppDelegate.swift */,
 				842CDCFF2A833F88006C837C /* SceneDelegate.swift */,
@@ -91,6 +94,14 @@
 				842CDD1D2A834072006C837C /* PageLayoutObject.swift */,
 			);
 			path = Realm;
+			sourceTree = "<group>";
+		};
+		842CDD1F2A834755006C837C /* DragAndDropColletionView */ = {
+			isa = PBXGroup;
+			children = (
+				842CDD202A834797006C837C /* TVRemoteViewController.swift */,
+			);
+			path = DragAndDropColletionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				842CDD132A833FB9006C837C /* RemoteRealm.swift in Sources */,
 				842CDCFE2A833F88006C837C /* AppDelegate.swift in Sources */,
 				842CDD002A833F88006C837C /* SceneDelegate.swift in Sources */,
+				842CDD212A834797006C837C /* TVRemoteViewController.swift in Sources */,
 				842CDD1C2A83404B006C837C /* AppObject.swift in Sources */,
 				842CDD182A83400B006C837C /* PageAppObject.swift in Sources */,
 				842CDD1E2A834072006C837C /* PageLayoutObject.swift in Sources */,
